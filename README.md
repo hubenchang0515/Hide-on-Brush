@@ -22,9 +22,11 @@ int HB_FillEllipse(void* userdata, int x , int y , int rx, int ry);
 ```
 
 ## Demo by SDL2
+Linux : 'gcc main.c -lSDL2 -lHB -lm' in Linux  
+MinGW : 'gcc main.c -lmingw32 -lSDL2main -lSDL2 -lHB'  
 ```C
 #include <SDL2/SDL.h>
-#include "brush.h"
+#include <HB/brush.h>
 
 /* Wrap SDL2 draw point function */
 int plot(void* renderer, int x, int y)

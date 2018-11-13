@@ -1,6 +1,8 @@
 #include "brush.h"
 #include <math.h>
 #include <stdio.h>
+#include <stdlib.h>
+
 /* Private */
 static void swap(int* n, int* m);
 static void ellipse_put4pixel(void* userdata, int x, int y, int vx, int vy);
