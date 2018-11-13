@@ -22,8 +22,8 @@ int HB_FillEllipse(void* userdata, int x , int y , int rx, int ry);
 ```
 
 ## Demo by SDL2
-Linux : 'gcc main.c -lSDL2 -lHB -lm' in Linux  
-MinGW : 'gcc main.c -lmingw32 -lSDL2main -lSDL2 -lHB'  
+Linux : ``gcc main.c -lSDL2 -lHB -lm``
+MinGW : ``gcc main.c -lmingw32 -lSDL2main -lSDL2 -lHB``  
 ```C
 #include <SDL2/SDL.h>
 #include <HB/brush.h>
